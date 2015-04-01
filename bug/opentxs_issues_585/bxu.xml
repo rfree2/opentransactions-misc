@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<digitalAssetContract version="2.0">
+
+<entity shortname="Just testing" longname="I need user feedback to help design the contract tags the server must support..." email="office (at)  tigusoft.pl"/>
+
+<issue company="Tigusoft.pl" email="office@tigusoft.pl" contractUrl="http://tigusoft.pl/contract" type="currency"/>
+
+<currency name="tigu-tokens" tla="TOKEN" symbol="tigu" type="decimal" factor="1" decimal_power="0" fraction="mg"/>
+
+<!-- CONDITIONS -->
+
+<condition name="backing">
+  Tigusoft's tigu-tokens are payable to bearer in fun video game
+  entertainment, on demand, subject to the conditions specified in this
+  currency contract.
+
+  Tigusoft will maintain at all times a primary reserve of old 1980s
+  video games in an amount sufficient to satisfy all the tokens in circulation.
+</condition>
+
+<condition name="audit">
+  Tigusoft's tigu-tokens are primarily backed by Tigusofty's
+  reputation as a connossieur of fine pizza.
+
+  No primary reserve is established for this currency.
+</condition>
+
+<condition name="purchase">
+  In order to obtain Tigusoft's tigu-tokens, you must
+  persuade Tigusoft to part with same, by any means fair
+  or foul. Common means are in exchange for favours
+  done to Tigusoft or in exchange for national currency.
+</condition>
+
+<condition name="redemption">
+  In order to redeem Tigusoft's tigu-tokens, you must
+  negotiate a suitable time and place, and then ask
+  nicely. Because most suitable redemption locations
+  (game section of pizza parlor) do not have Internet access,
+  it is likely that there will be a time delay between
+  currency redemption and arrival of available games.
+</condition>
+
+<condition name="rate">
+  Issuance and redemption will be performed at no charge.
+</condition>
+
+<condition name="buyback">
+  The Issuer reserves the right to buy back all outstanding
+  currency, thereby terminating the use of this instrument.
+</condition>
+
+<condition name="liability">
+  Tigusoft the rat is solely liable to perform according to
+  the conditions specified in this contract.
+</condition>
+
+<condition name="mint">
+  Float - the total quantity of Tigusoft's tigu-tokens
+  outstanding - is created by a Mint account,
+  specially set by the Operator.  Authorization to the Operator
+  is hereby included to specially set one Mint account for creation
+  of Tigusoft's tigu-tokens.
+
+  Disbursements from the Mint account are to be made on receipt of
+  duly signed and public authorization from Tigusoft the Rat.  All
+  disbursements from the Mint account are to be made to the single
+  Currency Comptroller account identified by the authorization.
+
+  From time to time, the Currency Comptroller may direct the
+  Currency Manager to return Tigusoft's tigu-tokens to the Mint
+  for the express purpose of reducing the float. Tigusoft's tigu-tokens
+  so delivered are to be deposited into the Mint account,
+  thus reducing the float by that amount.
+</condition>
+
+<condition name="privacy">
+  The purchase, redemption and trading of Tigusoft's tigu-tokens normally
+  are done on the basis of strong privacy.
+</condition>
+
+</digitalAssetContract>
